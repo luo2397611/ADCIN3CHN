@@ -3,7 +3,7 @@
 **用了这些东西**
 - STM32CUBUMX
 - STM32F103RCTX-正点原子MINI开发板
-- 三通道ADC :IN1,IN2,IN3
+- 三通道ADC :IN0,IN1,IN2
 - FREERTOS
 - ADC-DMA传输
 - 定时器直接触发ADC
