@@ -1,0 +1,32 @@
+SET PATH=C:\Keil_v5\ARM\ARMCC\Bin;C:\Users\YU\Desktop\hispark\04SoftLib\HiSVP_PC_V1.2.2.2\HiSVP_PC_V1.2.2.2\HiSVP_PC_V1.2.2.2\HiSVP_PC_V1.2.2.2\tools\nnie\windows\ruyi_env_setup-2.0.41\python35;C:\Users\YU\Desktop\hispark\04SoftLib\HiSVP_PC_V1.2.2.2\HiSVP_PC_V1.2.2.2\HiSVP_PC_V1.2.2.2\HiSVP_PC_V1.2.2.2\tools\nnie\windows\ruyi_env_setup-2.0.41\python35\Scripts;C:\Users\YU\Desktop\hispark\04SoftLib\HiSVP_PC_V1.2.2.2\HiSVP_PC_V1.2.2.2\HiSVP_PC_V1.2.2.2\HiSVP_PC_V1.2.2.2\tools\nnie\windows\ruyi_env_setup-2.0.41\python35\Library\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\mingw64\bin;C:\Program Files\HUAWEI-LiteOS-Studio\bin;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\YU\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts;C:\Users\YU\Desktop\GIT\vcpkg;C:\Program Files\dotnet\;C:\Users\YU\anaconda3;C:\Users\YU\anaconda3\Library\mingw-w64\bin;C:\Users\YU\anaconda3\Library\usr\bin;C:\Users\YU\anaconda3\Library\bin;C:\Users\YU\anaconda3\Scripts;C:\Users\í²\AppData\Local\Programs\Python\Python37;C:\Users\í²\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\YU\AppData\Local\Microsoft\WindowsApps;C:\mingw64\bin;C:\Users\YU\AppData\Local\GitHubDesktop\bin;C:\Users\YU\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\YU\AppData\Roaming\Microsoft\Windows\Start;C:\Users\YU\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.7;C:\Users\YU\AppData\Local\Microsoft\WindowsApps;C:\Users\YU\.dotnet\tools
+SET CPU_TYPE=STM32F103RC
+SET CPU_VENDOR=STMicroelectronics
+SET UV2_TARGET=ADCIN3CHN
+SET CPU_CLOCK=0x044AA200
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmAsm" --Via "adcin3chn\startup_stm32f103xe._ia"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\main.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\gpio.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\adc.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\tim.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\usart.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_it.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal_msp.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal_gpio_ex.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal_adc.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal_adc_ex.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal_rcc.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal_rcc_ex.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal_gpio.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal_dma.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal_cortex.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal_pwr.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal_flash.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal_flash_ex.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal_exti.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal_tim.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal_tim_ex.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\stm32f1xx_hal_uart.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "adcin3chn\system_stm32f1xx.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmLink" --Via "ADCIN3CHN\ADCIN3CHN.lnp"
+"C:\Keil_v5\ARM\ARMCC\Bin\fromelf.exe" "ADCIN3CHN\ADCIN3CHN.axf" --i32combined --output "ADCIN3CHN\ADCIN3CHN.hex"
